@@ -55,5 +55,7 @@ print(response.text)
 delete_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}/{today.strftime('%Y%m%d')}"
 response = requests.delete(url=delete_endpoint, headers=headers)
 
+
+
 #https://pixe.la/v1/users/rufo/graphs/graph1.html
 
